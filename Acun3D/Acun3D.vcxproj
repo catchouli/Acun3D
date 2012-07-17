@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A2CEFF89-DF2E-4562-B171-301AE8EF3E55}</ProjectGuid>
+    <RootNamespace>Acun3D</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../Dependencies/include</AdditionalIncludeDirectories>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <AdditionalOptions>-D_SCL_SECURE_NO_WARNINGS %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>..\Dependencies\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>DevIL.lib</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>../Dependencies/include</AdditionalIncludeDirectories>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <AdditionalOptions>-D_SCL_SECURE_NO_WARNINGS %(AdditionalOptions)</AdditionalOptions>
+      <TreatWarningAsError>false</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>..\Dependencies\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>DevIL.lib</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AmbientLight.h" />
+    <ClInclude Include="CameraNode.h" />
+    <ClInclude Include="CameraRotationNode.h" />
+    <ClInclude Include="CullingType.h" />
+    <ClInclude Include="DirectionalLight.h" />
+    <ClInclude Include="Image.h" />
+    <ClInclude Include="Light.h" />
+    <ClInclude Include="LightTypes.h" />
+    <ClInclude Include="MaterialType.h" />
+    <ClInclude Include="MatrixMode.h" />
+    <ClInclude Include="MD2_Normals.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Colour.h" />
+    <ClInclude Include="Matrix.h" />
+    <ClInclude Include="MatrixIndexException.h" />
+    <ClInclude Include="MD2_Header.h" />
+    <ClInclude Include="MD2_Model.h" />
+    <ClInclude Include="MD2_Structures.h" />
+    <ClInclude Include="ModelNode.h" />
+    <ClInclude Include="Pixel.h" />
+    <ClInclude Include="PointLight.h" />
+    <ClInclude Include="PulseNode.h" />
+    <ClInclude Include="Rasteriser.h" />
+    <ClInclude Include="Renderer.h" />
+    <ClInclude Include="RotatingNode.h" />
+    <ClInclude Include="SceneNode.h" />
+    <ClInclude Include="ShadingType.h" />
+    <ClInclude Include="Spotlight.h" />
+    <ClInclude Include="TransformNode.h" />
+    <ClInclude Include="TranslatingNode.h" />
+    <ClInclude Include="Triangle.h" />
+    <ClInclude Include="UV.h" />
+    <ClInclude Include="Vector.h" />
+    <ClInclude Include="Vertex.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AmbientLight.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="CameraNode.cpp" />
+    <ClCompile Include="CameraRotationNode.cpp" />
+    <ClCompile Include="Colour.cpp" />
+    <ClCompile Include="DirectionalLight.cpp" />
+    <ClCompile Include="Image.cpp" />
+    <ClCompile Include="Light.cpp" />
+    <ClCompile Include="Matrix.cpp" />
+    <ClCompile Include="MatrixIndexException.cpp" />
+    <ClCompile Include="MD2_Model.cpp" />
+    <ClCompile Include="ModelNode.cpp" />
+    <ClCompile Include="PointLight.cpp" />
+    <ClCompile Include="PulseNode.cpp" />
+    <ClCompile Include="Rasteriser.cpp" />
+    <ClCompile Include="Renderer.cpp" />
+    <ClCompile Include="RotatingNode.cpp" />
+    <ClCompile Include="SceneNode.cpp" />
+    <ClCompile Include="Spotlight.cpp" />
+    <ClCompile Include="TransformNode.cpp" />
+    <ClCompile Include="TranslatingNode.cpp" />
+    <ClCompile Include="Triangle.cpp" />
+    <ClCompile Include="Vector.cpp" />
+    <ClCompile Include="Vertex.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

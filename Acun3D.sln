@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Acun3D", "Acun3D\Acun3D.vcxproj", "{A2CEFF89-DF2E-4562-B171-301AE8EF3E55}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestProject", "TestProject\TestProject.vcxproj", "{1DAE8509-6BE4-4874-BC11-F0013F7C097A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2CEFF89-DF2E-4562-B171-301AE8EF3E55}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A2CEFF89-DF2E-4562-B171-301AE8EF3E55}.Debug|Win32.Build.0 = Debug|Win32
+		{A2CEFF89-DF2E-4562-B171-301AE8EF3E55}.Release|Win32.ActiveCfg = Release|Win32
+		{A2CEFF89-DF2E-4562-B171-301AE8EF3E55}.Release|Win32.Build.0 = Release|Win32
+		{1DAE8509-6BE4-4874-BC11-F0013F7C097A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1DAE8509-6BE4-4874-BC11-F0013F7C097A}.Debug|Win32.Build.0 = Debug|Win32
+		{1DAE8509-6BE4-4874-BC11-F0013F7C097A}.Release|Win32.ActiveCfg = Release|Win32
+		{1DAE8509-6BE4-4874-BC11-F0013F7C097A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

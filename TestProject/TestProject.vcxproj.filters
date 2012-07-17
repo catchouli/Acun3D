@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Demos">
+      <UniqueIdentifier>{64db5ab4-1b62-401e-ac3a-af13c0cb6a87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Demos">
+      <UniqueIdentifier>{ea087616-fb26-4548-b493-7597e546dc75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Demos\Cube">
+      <UniqueIdentifier>{28089517-8ecb-4570-89e3-bf7abb5b21a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Demos\Cube">
+      <UniqueIdentifier>{97934a39-a862-42ed-b792-d3179d71fc7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Demos\Miku">
+      <UniqueIdentifier>{3c616d65-df04-4415-aed7-e0ab9c7bd275}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Demos\Miku">
+      <UniqueIdentifier>{99dd081b-9edf-4fda-a6a5-f4411e5da25e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Demos\Orbit">
+      <UniqueIdentifier>{d2b3902a-3f52-41fa-84f6-cd83b12d66ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Demos\Orbit">
+      <UniqueIdentifier>{f010d86b-b10e-4552-a6ef-ae88b92f0f44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Demos\Sonic">
+      <UniqueIdentifier>{bd184a72-800c-4968-a5ba-d8add77c5ea6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Demos\Sonic">
+      <UniqueIdentifier>{38dd4c07-5fc1-4f21-b6b4-6a53e12c4595}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Demos\Tunnel">
+      <UniqueIdentifier>{f0a4b5b0-3fa0-4fc8-b0ed-598bb1a9cd15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Demos\Tunnel">
+      <UniqueIdentifier>{9aa7f65c-4d66-4388-8d90-8b7a535f0a13}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="TestProject.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestProject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo.h">
+      <Filter>Header Files\Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>Header Files\Demos\Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="Miku.h">
+      <Filter>Header Files\Demos\Miku</Filter>
+    </ClInclude>
+    <ClInclude Include="Orbit.h">
+      <Filter>Header Files\Demos\Orbit</Filter>
+    </ClInclude>
+    <ClInclude Include="Sonic.h">
+      <Filter>Header Files\Demos\Sonic</Filter>
+    </ClInclude>
+    <ClInclude Include="Tunnel.h">
+      <Filter>Header Files\Demos\Tunnel</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TestProject.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TestProject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo.cpp">
+      <Filter>Source Files\Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube.cpp">
+      <Filter>Source Files\Demos\Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="Miku.cpp">
+      <Filter>Source Files\Demos\Miku</Filter>
+    </ClCompile>
+    <ClCompile Include="Orbit.cpp">
+      <Filter>Source Files\Demos\Orbit</Filter>
+    </ClCompile>
+    <ClCompile Include="Sonic.cpp">
+      <Filter>Source Files\Demos\Sonic</Filter>
+    </ClCompile>
+    <ClCompile Include="Tunnel.cpp">
+      <Filter>Source Files\Demos\Tunnel</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

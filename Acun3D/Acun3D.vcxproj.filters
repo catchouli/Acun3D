@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Vertex.cpp">
+      <Filter>Source Files\Mathematics</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>Source Files\Mathematics</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>Source Files\Mathematics</Filter>
+    </ClCompile>
+    <ClCompile Include="MD2_Model.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Colour.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Rasteriser.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source Files\Rendering\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLight.cpp">
+      <Filter>Source Files\Rendering\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionalLight.cpp">
+      <Filter>Source Files\Rendering\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="Spotlight.cpp">
+      <Filter>Source Files\Rendering\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="AmbientLight.cpp">
+      <Filter>Source Files\Rendering\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="MatrixIndexException.cpp">
+      <Filter>Source Files\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneNode.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelNode.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformNode.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="RotatingNode.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="PulseNode.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Source Files\Mathematics</Filter>
+    </ClCompile>
+    <ClCompile Include="TranslatingNode.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraNode.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraRotationNode.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MatrixIndexException.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Header Files\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Header Files\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Header Files\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="Colour.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Pixel.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="MD2_Header.h">
+      <Filter>Header Files\Model\MD2\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="MD2_Structures.h">
+      <Filter>Header Files\Model\MD2\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Header Files\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="Rasteriser.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="MD2_Model.h">
+      <Filter>Header Files\Model\MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="MD2_Normals.h">
+      <Filter>Header Files\Model\MD2\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Header Files\Rendering\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="LightTypes.h">
+      <Filter>Header Files\Rendering\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLight.h">
+      <Filter>Header Files\Rendering\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalLight.h">
+      <Filter>Header Files\Rendering\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="Spotlight.h">
+      <Filter>Header Files\Rendering\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="AmbientLight.h">
+      <Filter>Header Files\Rendering\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="UV.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="CullingType.h">
+      <Filter>Header Files\Rendering\States</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialType.h">
+      <Filter>Header Files\Rendering\States</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrixMode.h">
+      <Filter>Header Files\Rendering\States</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadingType.h">
+      <Filter>Header Files\Rendering\States</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneNode.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelNode.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformNode.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="RotatingNode.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="PulseNode.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TranslatingNode.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraNode.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraRotationNode.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{a49c766d-aaad-4017-b60e-539ed03c7fa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8610d04a-7af9-4c36-a990-0d18783cde2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Exceptions">
+      <UniqueIdentifier>{26b134c4-9bb8-4775-a1b4-fb37ec0cd9ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rendering">
+      <UniqueIdentifier>{eb582b93-088a-4adb-8fd6-28dc561faf72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics">
+      <UniqueIdentifier>{05abed29-1a07-4df1-b924-95cff4a541fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model">
+      <UniqueIdentifier>{ef89f26b-6b66-4197-8110-ad96aea43cf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model\MD2">
+      <UniqueIdentifier>{bc6dfaa9-40b1-4a89-97c5-03894c12814e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model\MD2\Structures">
+      <UniqueIdentifier>{4f201b2b-583d-45e3-811d-3b4bf0c1b087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mathematics">
+      <UniqueIdentifier>{e8d0d9bd-308d-4e9d-b9e1-f16400f3efdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering">
+      <UniqueIdentifier>{df3e1df3-b956-458d-9001-5c45180462ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model">
+      <UniqueIdentifier>{81df516b-3509-468e-86b5-d0ca6108c314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{aea44a5a-0354-4b51-b6c1-b9adac4a39d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mathematics">
+      <UniqueIdentifier>{02e46f7d-b4c2-4f34-b857-50434f4e29f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rendering\Lighting">
+      <UniqueIdentifier>{c9ba33fc-18bf-409e-b3dd-005fad71e1ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering\Lighting">
+      <UniqueIdentifier>{70e0056f-2af1-4f09-8dfd-9de47d66112f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rendering\States">
+      <UniqueIdentifier>{451c16df-d01d-478d-9d16-fb81d8678576}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Exceptions">
+      <UniqueIdentifier>{c5d3ae9b-2cc1-4d72-8d5f-6e8440b49626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scene">
+      <UniqueIdentifier>{56b3e789-51ab-49ef-b6f9-976804cbf9e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene">
+      <UniqueIdentifier>{fb4ae568-703e-4f33-a2dd-4ce62cc9e3a9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
